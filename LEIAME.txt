@@ -1,0 +1,11 @@
+...:::::Configuração do Ambiente:::::...
+Instalar node.js -> https://nodejs.org/dist/v4.4.6/node-v4.4.6-x64.msi
+Instalar mongoDB -> https://www.mongodb.com/dr/fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.2.7-signed.msi/download
+
+
+...:::Executando Aplicação::::...
++ Executar o comando node server.js no CMD (dentro da pasta raiz da aplicação)
++ Criar diretório C:\\data\db ( Para o MongoDB)
++ Executar em um outro  terminal o comando mongod (terminal dentro da pasta C:\Program Files\MongoDB\Server\3.2\bin) //Depende da versão do mongoDB instalada
+
+Abrir navegador e ir para 127.0.0.1:3000

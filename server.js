@@ -46,7 +46,7 @@ app.post('/data', function(req, res){
     var sid = data.id;
     var tid = sid;
 
-    //remove properties which we do not want to save in DB
+    //remover propriedades que não deseja salvar no DB
     delete data.id;
     delete data.gr_id;
     delete data["!nativeeditor_status"];
